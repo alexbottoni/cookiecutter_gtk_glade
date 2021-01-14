@@ -25,7 +25,7 @@ OBJS=	{{cookiecutter.main_c_source_filename}}.o
 all: $(OBJS)
 	$(LD) -o $(TARGET) $(OBJS) $(LDFLAGS)
 	
-main.o: src/{{cookiecutter.main_c_source_filename}}.c
+{{cookiecutter.main_c_source_filename}}.o: src/{{cookiecutter.main_c_source_filename}}.c
 	$(CC) -c $(CCFLAGS) src/{{cookiecutter.main_c_source_filename}}.c $(GTKLIB) -o {{cookiecutter.main_c_source_filename}}.o
 	
 clean:
