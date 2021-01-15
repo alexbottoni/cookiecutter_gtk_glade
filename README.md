@@ -2,6 +2,9 @@
 
 Cookiecutter Template for generating a basic C language, GTK and Glade application.
 
+This template is described in this article: 
+[http://www.alexbottoni.com/2021/01/15/how-to-create-a-cookiecutter-for-gtk-projects/](http://www.alexbottoni.com/2021/01/15/how-to-create-a-cookiecutter-for-gtk-projects/)
+
 The source code is taken from Chapter 4 of "GTK Glade C Programming Tutorial" by *Programmer's Notes*: [GTK+ 3 Glade C Programming Template Files](https://prognotes.net/2015/07/gtk-3-glade-c-programming-template/).
 
 To generate a basic GTK3 empty application, just cd into your target directory and run cookiecutter as follows.

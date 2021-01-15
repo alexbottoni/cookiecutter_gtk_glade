@@ -1,4 +1,4 @@
-# change application name here (executable output name)
+# name of the resulting executable file
 TARGET={{cookiecutter.main_c_source_filename}}
 
 # compiler

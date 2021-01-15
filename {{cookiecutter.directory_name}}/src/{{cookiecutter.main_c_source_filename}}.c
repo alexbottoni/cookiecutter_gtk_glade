@@ -7,9 +7,6 @@ int main(int argc, char *argv[])
 
     gtk_init(&argc, &argv);
 
-    // builder = gtk_builder_new();
-    // gtk_builder_add_from_file (builder, "glade/window_main.glade", NULL);
-    // Update October 2019: The line below replaces the 2 lines above
     builder = gtk_builder_new_from_file("glade/main_window.glade");
 
     window = GTK_WIDGET(gtk_builder_get_object(builder, "main_window"));
